@@ -1,16 +1,16 @@
-type Dni = number;
+// type Dni = number;
 
-interface Person {
-    // no son obligatoria mente requeridos los alementos con '?'
-    heigh?: number;
-    age: number;
-    name: string;
-    dni: Dni;
-}
+// interface Person {
+//     // Elements with the question mark are not required
+//     height?: number;
+//     age: number;
+//     name: string;
+//     dni: Dni;
+// }
 
-const person: Person = {
-    // heigh: 1.76,
-    age: 23,
-    name: 'Pepe',
-    dni: 95740320
-}
+// const person: Person = {
+//     // heigh: 1.76,
+//     age: 23,
+//     name: 'Pepe',
+//     dni: 95740320
+// }
