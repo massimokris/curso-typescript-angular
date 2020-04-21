@@ -10,22 +10,22 @@ export interface Player {
 }
 
 export enum Position {
-    goalkeeper = 1,
-    rightBack = 4,
-    sweeper = 2,
-    stopper = 6,
-    leftBack = 3,
-    rightMidFielder = 8,
-    centralDefensiveMidFielder = 5,
-    leftMidFielder = 10,
-    rightWinger = 7,
-    centerForward = 9,
-    leftWinger = 11
+    "Goalkeeper" = 1,
+    "Right Back" = 4,
+    "Sweeper" = 2,
+    "Stopper" = 6,
+    "Left Back" = 3,
+    "Right Mid Fielder" = 8,
+    "Central Mid Fielder" = 5,
+    "Left Mid Fielder" = 10,
+    "Right Winger" = 7,
+    "Center Forward" = 9,
+    "Left Winger" = 11
 }
 
 export enum Footed {
-    left,
-    right
+    Left,
+    Right
 }
 
 export enum Countries {

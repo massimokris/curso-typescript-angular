@@ -2,8 +2,7 @@
     <h1>Players</h1>
     <div class="container">
         <div class="interior">
-            <!-- <a class="btn" (click)="newPlayer()">New Player</a> -->
-            <a href="">New Player</a>
+            <a class="btn" (click)="newPlayer()">New Player</a>
         </div>
     </div>
     <div class="tbl-header">
@@ -34,11 +33,12 @@
                     <th>{{player.nationality}}</th>
                     <th>{{player.footed}}</th>
                     <th>
-                        <button>Edit</button>
-                        <button>Delete</button>
+                        <button class="submit" (click)="editPlayer(player)">Edit</button>
+                        <button class="submit" (click)="deletePlayer(player)">Delete</button>
                     </th>
                 </tr>
             </tbody>
         </table>
     </div>
 </section>
+<app-player-dialog *ngIf="showModal" [player]="selectedPlayer" (closeDialog)="closeDialog()"></app-player-dialog>
